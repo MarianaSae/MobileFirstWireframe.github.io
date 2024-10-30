@@ -1,0 +1,756 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    background-color: aliceblue;
+    padding-top: 20px;
+    border-bottom: 3px solid black;
+}
+
+nav {
+    width: 100%;
+    height: 0px;
+}
+
+h1 {
+    width: auto;
+    padding-bottom: 10px;
+    margin: 0;
+    margin-left: 20px;
+
+}
+
+.hamburger {
+    display: block;
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    z-index: 2;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+.menu {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+
+.menu li {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu.show {
+    display: block;
+    background-color: black;
+    margin-top: 35px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+}
+
+.SN {
+    width: 95%;
+    height: auto;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px;
+
+}
+
+
+
+.foto {
+    width: 90%;
+    height: 200px;
+    border: 3px solid black;
+    background-image: url(imgs/IMGW.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text {
+    width: 90%;
+    height: auto;
+    border: 3px solid black;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    text-align: justify;
+}
+
+.foto2 {
+    width: 90%;
+    height: 200px;
+    border: 3px solid black;
+    background-image: url(imgs/IMGW.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text2 {
+    width: 90%;
+    height: auto;
+    border: 3px solid black;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    text-align: justify;
+}
+
+.foto3 {
+    width: 90%;
+    height: 200px;
+    border: 3px solid black;
+    background-image: url(imgs/IMGW.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text3 {
+    width: 90%;
+    height: auto;
+    border: 3px solid black;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    text-align: justify;
+}
+
+
+
+.promos {
+    width: 95%;
+
+}
+
+.promo-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.color {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.Menuu {
+    width: 95%;
+
+}
+
+#toggleBoton {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: medium;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#toggleBoton2 {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: medium;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#toggleBoton3 {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: medium;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#toggleBoton4 {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: medium;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.textB {
+    display: none;
+}
+
+
+footer {
+    width: 100%;
+    height: auto;
+    border-top: 3px solid black;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titFoo {
+    margin-top: 20px;
+    padding: 0%;
+    text-align: center;
+    margin-right: 20px;
+    border: 3px solid black;
+}
+
+
+.c1 {
+    width: 85%;
+    height: auto;
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c2 {
+    width: 85%;
+    height: auto;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c3 {
+    width: 85%;
+    height: 100px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+
+}
+
+.menuF {
+    color: black;
+    list-style: none;
+    text-decoration: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+}
+
+.menuF a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+.MF1 {
+    padding-top: 15px;
+    font-weight: bolder;
+}
+
+.MF2 {
+    font-weight: bolder;
+}
+
+.MF3 {
+    font-weight: bolder;
+}
+
+.MF4 {
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+.fooR {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+.ContP {
+    width: 95%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-self: self-end;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Contenedor1 {
+    width: 20%;
+    height: 50px;
+    border: 3px solid black;
+    background-image: url(imgs/ImgWX.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Contenedor2 {
+    width: 20%;
+    height: 50px;
+    border: 3px solid black;
+    background-image: url(imgs/ImgWX.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Contenedor3 {
+    width: 20%;
+    height: 50px;
+    border: 3px solid black;
+    background-image: url(imgs/ImgWX.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Contenedor4 {
+    width: 20%;
+    height: 50px;
+    border: 3px solid black;
+    background-image: url(imgs/ImgWX.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menuAL {
+    color: grey;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 0%;
+    margin-top: 10px;
+}
+
+.promo-item {
+    display: flex;
+    flex-direction: column;
+    /* En columna en mobile */
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+
+@media (min-width: 768px) {
+
+    header {
+        display: flex;
+    }
+
+    h1 {
+        width: 100%;
+        padding-bottom: 10px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav {
+        display: block;
+        border-bottom: 3px solid black;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        position: static;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu li {
+        margin: 0 15px;
+        font-size: larger;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .SN {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Elem {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .foto {
+        width: 90%;
+        height: 200px;
+        border: 3px solid black;
+        display: flex;
+        justify-items: center;
+    }
+
+    .text {
+        width: 90%;
+        height: auto;
+        border: 3px solid black;
+        margin-top: 0px;
+        padding: 5px 10px 5px 10px;
+        text-align: justify;
+    }
+
+    .promo-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ContenedorPa {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+    }
+
+    .foto2 {
+        width: 90%;
+        height: 200px;
+        border: 3px solid black;
+        display: flex;
+        justify-items: center;
+    }
+
+    .text2 {
+        width: 90%;
+        height: auto;
+        border: 3px solid black;
+        margin-top: 0px;
+        padding: 5px 10px 5px 10px;
+        text-align: justify;
+    }
+
+    .ContenedorPa2 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+    }
+
+    .foto3 {
+        width: 95%;
+        height: 200px;
+        border: 3px solid black;
+        display: flex;
+        justify-items: center;
+    }
+
+    .text3 {
+        width: 95%;
+        height: auto;
+        border: 3px solid black;
+        margin-top: 0px;
+        padding: 5px 10px 5px 10px;
+        text-align: justify;
+
+    }
+
+    .CO2 {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 20px;
+
+    }
+
+
+
+
+    footer {
+        width: 100%;
+        height: auto;
+        border-top: 3px solid black;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .c1 {
+        width: 30%;
+        height: auto;
+        border: 3px solid black;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .c2 {
+        width: 30%;
+        
+        border: 3px solid black;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        
+    }
+
+    .c3 {
+        width: 30%;
+        border: 3px solid black;
+        margin-bottom: 20px;
+        align-self: flex-end;
+    }
+
+    .menuF {
+        color: black;
+        list-style: none;
+        text-decoration: black;
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    .menuF a {
+        margin-top: 5px;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 5px;
+        font-size: larger;
+    }
+
+    .MF1 {
+        padding-top: 15px;
+        font-weight: bolder;
+    }
+
+    .MF2 {
+        font-weight: bolder;
+    }
+
+    .MF3 {
+        font-weight: bolder;
+    }
+
+    .MF4 {
+        padding-bottom: 15px;
+        font-weight: bolder;
+    }
+
+    .fooR {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .ContP {
+        width: 95%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-self: self-end;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .Contenedor1 {
+        width: 20%;
+        height: 50px;
+    }
+
+    .Contenedor2 {
+        width: 20%;
+        height: 50px;
+    }
+
+    .Contenedor3 {
+        width: 20%;
+        height: 50px;
+    }
+
+    .Contenedor4 {
+        width: 20%;
+        height: 50px;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    
+    header{
+        display: flex;
+    }
+
+    h1 {
+        width: 100%;
+        padding-bottom: 10px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        padding-left: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    
+    }
+    
+   
+    nav {
+        display: block;
+        border-bottom: 3px solid black;
+        height: 50px;
+        display: flex;
+        
+    }
+
+    .menu {
+        display: flex;
+        position: static;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .foto {
+        width: 90%;
+        height: 350px;
+        border: 3px solid black;
+        display: flex;
+        justify-items: center;
+    }
+
+    .text {
+        width: 90%;
+        height: auto;
+        border: 3px solid black;
+        margin-top: 0px;
+        padding: 5px 10px 5px 10px;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+
+    .CO2 {
+        padding-bottom: 30px;
+
+    }
+    
+    .Contenedor1 {
+        width: 15%;
+        height: 50px;
+    }
+
+    .Contenedor2 {
+        width: 15%;
+        height: 50px;
+    }
+
+    .Contenedor3 {
+        width: 15%;
+        height: 50px;
+    }
+
+    .Contenedor4 {
+        width: 15%;
+        height: 50px;
+    }
+
+    .foto3 {
+        width: 95%;
+        height: 350px;
+        border: 3px solid black;
+        display: flex;
+        justify-items: center;
+    }
+
+    .text3 {
+        width: 95%;
+        height: auto;
+        border: 3px solid black;
+        margin-top: 0px;
+        padding: 5px 10px 5px 10px;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .foto2 {
+        width: 90%;
+        height: 300px;
+        border: 3px solid black;
+        display: flex;
+        justify-items: center;
+    }
+
+    .text2 {
+        font-size: 20px;
+    }
+
+}
